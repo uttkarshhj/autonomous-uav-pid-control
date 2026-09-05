@@ -1,0 +1,58 @@
+  ----------PID Velocity Log----------
+------------------------------------------------------------------------
+========================================================================
+  UAV PID Navigation Simulation
+  Started : 2026-09-05 19:53:57
+========================================================================
+  Takeoff    : 28.748611, 77.117222
+  t = 0s | [28.7486, 77.1172] | Target: Checkpoint 1 | Distance remaining: 2083.3 m | Velocity: 0.0 m/s
+
+========================================================================
+  Navigating to : Checkpoint 1
+  Destination   : 28.744444 lat, 77.138056 lon
+  Approach zone : 700 m  |  Reach radius : 10 m
+========================================================================
+  t = 5s | [28.7484, 77.1181] | Target: Checkpoint 1 | Distance remaining: 1993.3 m | Velocity: 30.0 m/s
+  t = 10s | [28.7480, 77.1205] | Target: Checkpoint 1 | Distance remaining: 1753.3 m | Velocity: 60.0 m/s
+  t = 15s | [28.7473, 77.1240] | Target: Checkpoint 1 | Distance remaining: 1409.8 m | Velocity: 69.9 m/s
+  t = 20s | [28.7466, 77.1275] | Target: Checkpoint 1 | Distance remaining: 1059.7 m | Velocity: 70.0 m/s
+  t = 25s | [28.7459, 77.1310] | Target: Checkpoint 1 | Distance remaining: 709.5 m | Velocity: 70.0 m/s
+  t = 30s | [28.7452, 77.1341] | Target: Checkpoint 1 | Distance remaining: 394.0 m | Velocity: 53.0 m/s
+  t = 35s | [28.7449, 77.1359] | Target: Checkpoint 1 | Distance remaining: 216.5 m | Velocity: 25.4 m/s
+  t = 40s | [28.7447, 77.1368] | Target: Checkpoint 1 | Distance remaining: 127.0 m | Velocity: 14.5 m/s
+  t = 45s | [28.7446, 77.1374] | Target: Checkpoint 1 | Distance remaining: 67.9 m | Velocity: 10.5 m/s
+  t = 50s | [28.7445, 77.1379] | Target: Checkpoint 1 | Distance remaining: 20.2 m | Velocity: 9.1 m/s
+
+  *** Checkpoint 1 reached (within 10 m). Velocity at reach : 8.98 m/s ***
+
+========================================================================
+  Navigating to : Target Location
+  Destination   : 28.723611 lat, 77.113333 lon
+  Approach zone : 1500 m  |  Reach radius : 10 m
+========================================================================
+  t = 55s | [28.7441, 77.1376] | Target: Target Location | Distance remaining: 3279.0 m | Velocity: 27.0 m/s
+  t = 60s | [28.7427, 77.1359] | Target: Target Location | Distance remaining: 3054.1 m | Velocity: 57.0 m/s
+  t = 65s | [28.7405, 77.1334] | Target: Target Location | Distance remaining: 2714.6 m | Velocity: 69.8 m/s
+  t = 70s | [28.7384, 77.1308] | Target: Target Location | Distance remaining: 2364.5 m | Velocity: 70.0 m/s
+  t = 75s | [28.7362, 77.1282] | Target: Target Location | Distance remaining: 2014.4 m | Velocity: 70.0 m/s
+  t = 80s | [28.7340, 77.1256] | Target: Target Location | Distance remaining: 1664.2 m | Velocity: 70.0 m/s
+  t = 85s | [28.7318, 77.1231] | Target: Target Location | Distance remaining: 1315.2 m | Velocity: 69.1 m/s
+  t = 90s | [28.7298, 77.1207] | Target: Target Location | Distance remaining: 999.4 m | Velocity: 57.9 m/s
+  t = 95s | [28.7283, 77.1189] | Target: Target Location | Distance remaining: 756.2 m | Velocity: 42.6 m/s
+  t = 100s | [28.7272, 77.1176] | Target: Target Location | Distance remaining: 580.8 m | Velocity: 30.6 m/s
+  t = 105s | [28.7264, 77.1167] | Target: Target Location | Distance remaining: 452.8 m | Velocity: 22.7 m/s
+  t = 110s | [28.7258, 77.1160] | Target: Target Location | Distance remaining: 355.5 m | Velocity: 17.6 m/s
+  t = 115s | [28.7253, 77.1154] | Target: Target Location | Distance remaining: 278.1 m | Velocity: 14.3 m/s
+  t = 120s | [28.7249, 77.1149] | Target: Target Location | Distance remaining: 213.5 m | Velocity: 12.1 m/s
+  t = 125s | [28.7246, 77.1145] | Target: Target Location | Distance remaining: 157.5 m | Velocity: 10.7 m/s
+  t = 130s | [28.7243, 77.1141] | Target: Target Location | Distance remaining: 107.0 m | Velocity: 9.8 m/s
+  t = 135s | [28.7240, 77.1138] | Target: Target Location | Distance remaining: 60.0 m | Velocity: 9.2 m/s
+  t = 140s | [28.7237, 77.1134] | Target: Target Location | Distance remaining: 14.7 m | Velocity: 9.0 m/s
+
+  *** Target Location reached (within 10 m). Velocity at reach : 8.97 m/s ***
+
+========================================================================
+  Mission complete. Total flight time : 141.0 s
+  Total route distance : 5426.5 m  (5.427 km)
+  Final velocity at target : 8.97 m/s  [SAFE < 10 m/s]
+========================================================================
