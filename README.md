@@ -1,9 +1,5 @@
 # 🛸 Autonomous UAV Navigation with PID Velocity Control
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
-[![Pure Python](https://img.shields.io/badge/Dependencies-Standard%20Library-orange.svg)]()
 
 An autonomous flight navigation and velocity regulation simulation for an Unmanned Aerial Vehicle (UAV). The system guides the drone through real-world GPS checkpoints towards a target destination using a **Profile-Guided discrete PID Controller** with anti-windup clamping, slew-rate limiting, and spherical Earth geodesy (Haversine & Great-Circle Dead Reckoning).
 
