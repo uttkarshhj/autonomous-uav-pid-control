@@ -35,24 +35,3 @@ The flight plan consists of two primary navigation legs across the Delhi region:
 | **Total Route** | — | — | **$5,426.5\text{ m}$ ($5.43\text{ km}$)** | Total Mission Flight |
 
 ---
-
-## ⚙️ Control System Architecture
-
-```text
-                       ┌────────────────────────────────────────────────────────┐
-                       │               UAV Flight Controller Loop               │
-                       │                                                        │
-    GPS Waypoint ─────►│  1. Geodesy: Haversine distance & Great-Circle Bearing  │
-                       │                        │                               │
-                       │                        ▼                               │
-                       │  2. Feedforward: Cosine S-Curve Velocity Profile       │
-                       │                        │                               │
-                       │                        ▼                               │
-                       │  3. Feedback: Discrete PID Controller                  │
-                       │     (Kp=0.9, Ki=0.02, Kd=0.4)                          │
-                       │     + Anti-Windup Clamping ([-3.0, 3.0])               │
-                       │     + Slew-Rate Limiter (±6.0 m/s²)                    │
-                       │                        │                               │
-                       │                        ▼                               │
-                       │  4. Kinematics: Dead Reckoning Position Update         │
-                       └────────────────────────────────────────────────────────┘
